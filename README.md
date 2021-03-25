@@ -2,10 +2,15 @@
 
 
 Navicat off
+
 Win + R, enter regedit, enter
+
 Delete HKEY_CURRENT_USER\Software\PremiumSoft\Data
+
 Expand HKEY_CURRENT_USER\Software\Classes\CLSID
+
 Expand each subfolder. If it contains only one folder named Info, delete it
+
 
 ``` bat
 @echo off
