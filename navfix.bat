@@ -1,8 +1,8 @@
 @echo off
 
-echo Delete HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration15XEN
+echo Delete HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration16XEN
 echo waiting......
-reg delete "HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration15XEN" /va /f
+reg delete "HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration16XEN" /va /f
 echo.
 
 echo Delete Info folder under HKEY_CURRENT_USER\Software\Classes\CLSID
